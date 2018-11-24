@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zzjService", "zzjService\zzjService.csproj", "{81224F7E-E174-411F-B0F5-CC3C6A8A019C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SrvDriver", "SrvDriver\SrvDriver.csproj", "{EDAE2594-A522-4BD5-9D37-4EFE3764A34F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{7BA6F637-1D32-4907-A9EB-657FC5959112}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81224F7E-E174-411F-B0F5-CC3C6A8A019C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81224F7E-E174-411F-B0F5-CC3C6A8A019C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81224F7E-E174-411F-B0F5-CC3C6A8A019C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81224F7E-E174-411F-B0F5-CC3C6A8A019C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDAE2594-A522-4BD5-9D37-4EFE3764A34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDAE2594-A522-4BD5-9D37-4EFE3764A34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDAE2594-A522-4BD5-9D37-4EFE3764A34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDAE2594-A522-4BD5-9D37-4EFE3764A34F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDAE2594-A522-4BD5-9D37-4EFE3764A34F} = {7BA6F637-1D32-4907-A9EB-657FC5959112}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F60FD2CA-2565-4845-9F1D-873035EC2F91}
+	EndGlobalSection
+EndGlobal
